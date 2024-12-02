@@ -1,0 +1,27 @@
+{
+  "development": {
+    "username": "sa",
+    "password": "BarDatatest$789",
+    "database": "NWSDBv2_1_0",
+    "host": "10.0.25.106",
+    "dialect": "mssql",
+    "dialectOptions": {
+      "encrypt": false,
+      "trustServerCertificate": true
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
